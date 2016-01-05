@@ -128,6 +128,7 @@ public class QSTileView extends ViewGroup {
     }
 
     private void recreateLabel() {
+        Log.d(TAG, "recreateLabel() called with " + "");
         CharSequence labelText = null;
         CharSequence labelDescription = null;
         if (mLabel != null) {
@@ -391,9 +392,7 @@ public class QSTileView extends ViewGroup {
             if (mLabel != null) {
                 mLabel.setFocusable(!editing);
             }
-            if (mRipple != null) {
-                mRipple.setVisible(!editing, false);
-            }
+            mRipple.setVisible(!editing, false);
         }
     }
 
