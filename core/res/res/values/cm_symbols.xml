@@ -142,4 +142,7 @@
 
     <!-- correct sensor handling -->
     <java-symbol type="bool" name="config_useSystemClockforSensors" />
+
+    <!-- Wifi idle time default -->
+    <java-symbol type="integer" name="def_wifi_idle_ms" />
 </resources>
