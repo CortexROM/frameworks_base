@@ -245,4 +245,9 @@
     <string name="permlab_resetBatteryStats">Reset battery statistics</string>
     <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_resetBatteryStats">Allows an application to reset the current low-level battery use data.</string>
+
+    <!-- Keyguard strings -->
+    <!-- Sequence of characters used to separate carrier message strings in keyguard. Typically just vertical line
+         with spaces on either side. [CHAR LIMIT=3] -->
+    <string name="kg_sub_separator" translatable="false">" | "</string>
 </resources>
