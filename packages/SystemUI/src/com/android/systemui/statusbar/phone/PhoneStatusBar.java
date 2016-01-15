@@ -398,6 +398,8 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
 
     private boolean mRecreating = false;
 
+    private int mBatterySaverWarningColor;
+
     // for disabling the status bar
     int mDisabled1 = 0;
     int mDisabled2 = 0;
